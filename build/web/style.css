@@ -1,0 +1,239 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 Oct, 2025, 1:20:54 PM
+    Author     : akash
+*/
+
+/* ===============================
+   GLOBAL STYLES FOR LOST & FOUND SYSTEM
+   =============================== */
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.6;
+}
+
+/* ===============================
+   NAVBAR
+   =============================== */
+.navbar {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  padding: 1rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #dcdcdc;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* ===============================
+   CONTAINERS & CARDS
+   =============================== */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ===============================
+   BUTTONS
+   =============================== */
+.btn {
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #b02a37;
+}
+
+/* ===============================
+   FORMS
+   =============================== */
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  font-weight: 500;
+  margin-top: 10px;
+  display: block;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #007bff;
+}
+
+/* ===============================
+   TABLES
+   =============================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table thead {
+  background: #007bff;
+  color: #fff;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* ===============================
+   FOOTER
+   =============================== */
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* ===============================
+   CHAT BOX (DEPARTMENT PANEL)
+   =============================== */
+.chat-box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  height: 400px;
+  overflow-y: auto;
+  background: #fafafa;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 8px 12px;
+  border-radius: 15px;
+  max-width: 70%;
+}
+
+.message.sent {
+  background: #007bff;
+  color: #fff;
+  margin-left: auto;
+}
+
+.message.received {
+  background: #e4e6eb;
+  color: #333;
+  margin-right: auto;
+}
+
+/* ===============================
+   HEADINGS
+   =============================== */
+h1, h2, h3 {
+  color: #0056b3;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* ===============================
+   UTILITIES
+   =============================== */
+.text-center {
+  text-align: center;
+}
+
+.mt-3 { margin-top: 1rem; }
+.mt-4 { margin-top: 1.5rem; }
+.mb-3 { margin-bottom: 1rem; }
+.mb-4 { margin-bottom: 1.5rem; }

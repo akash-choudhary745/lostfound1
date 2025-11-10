@@ -1,0 +1,171 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>
+
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+
+
+<root>
+    
+</root>-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+         https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <display-name>Lost & Found System</display-name>
+
+    <!-- Database Utility -->
+    <context-param>
+        <param-name>jdbcURL</param-name>
+        <param-value>jdbc:mysql://localhost:3306/lostfounddb</param-value>
+    </context-param>
+    <context-param>
+        <param-name>jdbcUsername</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <param-name>jdbcPassword</param-name>
+        <param-value>my@sql</param-value>
+    </context-param>
+
+    <!-- Register Servlet -->
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <!-- Login Servlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <!-- Logout Servlet -->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <!-- Post Item Servlet -->
+    <servlet>
+        <servlet-name>PostItemServlet</servlet-name>
+        <servlet-class>servlet.PostItemServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PostItemServlet</servlet-name>
+        <url-pattern>/post_item</url-pattern>
+    </servlet-mapping>
+
+    <!-- Search Servlet -->
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>servlet.SearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+
+    <!-- List Items Servlet -->
+    <servlet>
+        <servlet-name>ListItemsServlet</servlet-name>
+        <servlet-class>servlet.ListItemsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListItemsServlet</servlet-name>
+        <url-pattern>/items</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+  <servlet-name>DepartmentPanelServlet</servlet-name>
+  <servlet-class>servlet.DepartmentPanelServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>DepartmentPanelServlet</servlet-name>
+  <url-pattern>/department_panel</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>MarkRecoveredServlet</servlet-name>
+  <servlet-class>servlet.MarkRecoveredServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>MarkRecoveredServlet</servlet-name>
+  <url-pattern>/mark_recovered</url-pattern>
+</servlet-mapping>
+
+<!--<servlet>
+  <servlet-name>ChatServlet</servlet-name>
+  <servlet-class>servlet.ChatServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>ChatServlet</servlet-name>
+  <url-pattern>/chat</url-pattern>
+</servlet-mapping>-->
+
+<servlet>
+  <servlet-name>MessageServlet</servlet-name>
+  <servlet-class>servlet.MessageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>MessageServlet</servlet-name>
+  <url-pattern>/message</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>DepartmentLoginServlet</servlet-name>
+  <servlet-class>servlet.DepartmentLoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>DepartmentLoginServlet</servlet-name>
+  <url-pattern>/department_login</url-pattern>
+</servlet-mapping>
+<!--
+<servlet>
+  <servlet-name>MarkRecoveredServlet</servlet-name>
+  <servlet-class>servlet.MarkRecoveredServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>MarkRecoveredServlet</servlet-name>
+  <url-pattern>/mark_recovered</url-pattern>
+</servlet-mapping>-->
+
+<!--<servlet>
+  <servlet-name>MessageServlet</servlet-name>
+  <servlet-class>com.lostfound.servlet.MessageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>MessageServlet</servlet-name>
+  <url-pattern>/message</url-pattern>
+</servlet-mapping>-->
+
+<servlet>
+  <servlet-name>ChatServlet</servlet-name>
+  <servlet-class>servlet.ChatServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>ChatServlet</servlet-name>
+  <url-pattern>/chat</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>

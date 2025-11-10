@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/A:/temp/lostfound1/src/java/model/Item.java</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/SearchServlet.java</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/DepartmentLoginServlet.java</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/RegisterServlet.java</file>
+            <file>file:/A:/temp/lostfound1/web/department_register.jsp</file>
+            <file>file:/A:/temp/lostfound1/web/department_history.jsp</file>
+            <file>file:/A:/temp/lostfound1/web/navbar2.jsp</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/ListItemsServlet.java</file>
+            <file>file:/A:/temp/lostfound1/web/search.jsp</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/LoginServlet.java</file>
+            <file>file:/A:/temp/lostfound1/web/navbar1.jsp</file>
+            <file>file:/A:/temp/lostfound1/src/java/model/Message.java</file>
+            <file>file:/A:/temp/lostfound1/web/department_login.jsp</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/DepartmentRegisterServlet.java</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/PostItemServlet.java</file>
+            <file>file:/A:/temp/lostfound1/src/java/dao/UserDAO.java</file>
+            <file>file:/A:/temp/lostfound1/src/java/dao/ItemDAO.java</file>
+            <file>file:/A:/temp/lostfound1/web/department_home.jsp</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/RemoveItemServlet.java</file>
+            <file>file:/A:/temp/lostfound1/src/java/dao/MessageDAO.java</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/ChatServlet.java</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/LogoutServlet.java</file>
+            <file>file:/A:/temp/lostfound1/src/java/model/Department.java</file>
+            <file>file:/A:/temp/lostfound1/web/about.jsp</file>
+            <file>file:/A:/temp/lostfound1/web/Team_Member.jsp</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/MarkRecoveredServlet.java</file>
+            <file>file:/A:/temp/lostfound1/web/index.jsp</file>
+            <file>file:/A:/temp/lostfound1/web/login.jsp</file>
+            <file>file:/A:/temp/lostfound1/web/department_panel.jsp</file>
+            <file>file:/A:/temp/lostfound1/web/chat.jsp</file>
+            <file>file:/A:/temp/lostfound1/web/user_chat.jsp</file>
+            <file>file:/A:/temp/lostfound1/web/register.jsp</file>
+            <file>file:/A:/temp/lostfound1/src/java/dao/DepartmentDAO.java</file>
+            <file>file:/A:/temp/lostfound1/web/post_item.jsp</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/DepartmentPanelServlet.java</file>
+            <file>file:/A:/temp/lostfound1/src/java/servlet/MessageServlet.java</file>
+            <file>file:/A:/temp/lostfound1/web/navbar3.jsp</file>
+        </group>
+    </open-files>
+</project-private>
