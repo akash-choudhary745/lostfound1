@@ -1,27 +1,3 @@
-//package servlet;
-//
-//import dao.MessageDAO;
-//import model.Message;
-//import javax.servlet.*;
-//import javax.servlet.http.*;
-//import java.io.IOException;
-//import java.util.List;
-//
-//public class ChatServlet extends HttpServlet {
-//    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-//        throws ServletException, IOException {
-//        MessageDAO dao = new MessageDAO();
-//        List<Message> messages = dao.getAllMessages();
-//        StringBuilder out = new StringBuilder();
-//        for (Message m : messages) {
-//            out.append("<div><b>").append(m.getSender())
-//               .append(":</b> ").append(m.getMessage())
-//               .append("</div>");
-//        }
-//        response.getWriter().write(out.toString());
-//    }
-//}
-
 
 package servlet;
 
@@ -40,14 +16,14 @@ public class ChatServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        // ✅ Ensure only logged-in department users can access chat
+        //  Ensure only logged-in department users can access chat
         HttpSession session = request.getSession(false);
         if (session == null || session.getAttribute("departmentId") == null) {
             response.sendRedirect("department_login.jsp");
             return;
         }
 
-        // ✅ Set response type and encoding
+        // Set response type and encoding
         response.setContentType("text/html;charset=UTF-8");
 
         try {
