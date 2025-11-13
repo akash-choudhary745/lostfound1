@@ -27,7 +27,7 @@ public class DepartmentLoginServlet extends HttpServlet {
                 String storedHash = rs.getString("password_hash");
 
                 if (storedHash.equals(hashPassword(password))) {
-                    // ✅ Login successful — create session
+                    //  Login successful — create session
                     HttpSession session = request.getSession(true);
                     session.setAttribute("departmentId", rs.getInt("id"));
                     session.setAttribute("departmentUsername", rs.getString("username"));
@@ -40,13 +40,13 @@ public class DepartmentLoginServlet extends HttpServlet {
                     response.sendRedirect("department_home.jsp");
 
                 } else {
-                    // ❌ Wrong password
+                    //  Wrong password
                     request.setAttribute("error", "Invalid password!");
                     request.getRequestDispatcher("department_login.jsp").forward(request, response);
                 }
 
             } else {
-                // ❌ Username not found
+                //  Username not found
                 request.setAttribute("error", "No such department user!");
                 request.getRequestDispatcher("department_login.jsp").forward(request, response);
             }
@@ -58,7 +58,7 @@ public class DepartmentLoginServlet extends HttpServlet {
         }
     }
 
-    // 🔒 Utility: SHA-256 password hashing
+    // Utility: SHA-256 password hashing
     private String hashPassword(String password) throws Exception {
         MessageDigest md = MessageDigest.getInstance("SHA-256");
         byte[] hashedBytes = md.digest(password.getBytes("UTF-8"));
