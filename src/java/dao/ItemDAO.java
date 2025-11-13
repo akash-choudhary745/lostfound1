@@ -21,32 +21,7 @@ public void markAsRecovered(int id) {
     }
 }
 
-// Get all active (not recovered) items
-//public List<Item> getAllActiveItems() {
-//    List<Item> items = new ArrayList<>();
-//    String sql = "SELECT * FROM items WHERE status='active' ORDER BY created_at DESC";
-//    try (Connection con = DBUtil.getConnection();
-//         PreparedStatement ps = con.prepareStatement(sql);
-//         ResultSet rs = ps.executeQuery()) {
-//
-//        while (rs.next()) {
-//            Item item = new Item();
-//            item.setId(rs.getInt("id"));
-//            item.setTitle(rs.getString("title"));
-//            item.setDescription(rs.getString("description"));
-//            item.setCategory(rs.getString("category"));
-//            item.setLocation(rs.getString("location"));
-//            item.setContactInfo(rs.getString("contact_info"));
-//            item.setImagePath(rs.getString("image_path"));
-//            item.setStatus(rs.getString("status"));
-//            item.setCreatedAt(rs.getTimestamp("created_at"));
-//            items.add(item);
-//        }
-//    } catch (SQLException e) {
-//        e.printStackTrace();
-//    }
-//    return items;
-//}
+
 
 public List<Item> getAllActiveItems() {
     List<Item> items = new ArrayList<>();
