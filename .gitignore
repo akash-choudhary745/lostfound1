@@ -1,0 +1,35 @@
+
+---
+
+### 🧾 **`.gitignore`**
+Use this file to prevent unnecessary or sensitive files from being uploaded.
+
+```gitignore
+# Java build files
+/build/
+/dist/
+/target/
+/out/
+*.class
+*.log
+
+# IDE specific
+/.idea/
+/.vscode/
+/nbproject/private/
+/.settings/
+/.metadata/
+/*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven/Gradle (if added later)
+*.jar
+*.war
+*.ear
+
+# Temporary uploads
+uploads/
+temp/
