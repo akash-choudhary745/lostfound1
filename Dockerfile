@@ -14,7 +14,7 @@
 # -------------------------------
 # Stage 2: Tomcat Server
 # -------------------------------
-FROM tomcat:9.0-jdk17
+FROM tomcat:9.0-jdk8
 
 # Disable default Tomcat apps (optional but recommended)
 RUN rm -rf /usr/local/tomcat/webapps/*
