@@ -21,7 +21,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy your WAR file into Tomcat
 # If you built .war manually:
-COPY dist/LostAndFoundPortal.war /usr/local/tomcat/webapps/ROOT.war
+COPY dist/LostAndFoundPortal /usr/local/tomcat/webapps/ROOT.war
 
 # If using Maven build inside Docker:
 # COPY --from=builder /app/target/LostAndFoundPortal.war /usr/local/tomcat/webapps/ROOT.war
