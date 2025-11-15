@@ -72,5 +72,19 @@ CREATE TABLE departments (
 INSERT INTO departments (username, password_hash)
 VALUES ('pritesh', 'qqqqq');
 
-INSERT INTO departments WHERE username='pritesh' ,(fullname)
-VALUES ('pritesh jain');
+CREATE TABLE history (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  item_id INT,
+  item_name VARCHAR(200),
+  category VARCHAR(100),
+  location VARCHAR(200),
+  description TEXT,
+  posted_by INT,
+  posted_by_name VARCHAR(200),
+  claimed_by VARCHAR(200),
+  image_path VARCHAR(500),
+  removed_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  status VARCHAR(50) DEFAULT 'Claimed'
+);
+
+select * from history;
