@@ -1,4 +1,4 @@
-<%--<%@ page contentType="text/html;charset=UTF-8" %>--%>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -54,7 +54,7 @@
     <p>&copy; 2025 Lost & Found System | <a href="Team_Member.jsp" style="color: #ffc107">Developed by Team</a></p>
   </footer>
 
-<%--<%@ include file="footer.jsp" %>--%>
+
 
 </body>
 </html>

@@ -1,4 +1,4 @@
-<%--<%@ page contentType="text/html;charset=UTF-8" %>--%>
+
 <%@ page import="javax.servlet.http.HttpSession" %>
 <%@ include file="navbar3.jsp" %>
 

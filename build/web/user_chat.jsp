@@ -55,7 +55,7 @@
 <div class="container mt-4">
   <div class="d-flex justify-content-between align-items-center mb-3">
     <h4>User Chat</h4>
-    <a href="home.jsp" class="btn btn-outline-secondary btn-sm">? Back to Home</a>
+    <a href="index.jsp" class="btn btn-outline-secondary btn-sm">? Back to Home</a>
   </div>
 
   <% if (itemTitle != null) { %>
@@ -100,7 +100,7 @@
     <% } %>
 
     <div class="input-group">
-      <input name="message" class="form-control" placeholder="Type your message..." required>
+      <input name="message" class="form-control" placeholder="Type your message..." >
       <button class="btn btn-primary" type="submit">Send</button>
     </div>
   </form>

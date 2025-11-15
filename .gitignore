@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ---
 
@@ -33,3 +34,6 @@ Thumbs.db
 # Temporary uploads
 uploads/
 temp/
+=======
+/dist/
+>>>>>>> be980cf (first commit)

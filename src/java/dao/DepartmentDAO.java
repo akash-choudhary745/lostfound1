@@ -5,7 +5,12 @@ import util.DBUtil;
 
 import java.sql.*;
 
+<<<<<<< HEAD
 public class DepartmentDAO {    
+=======
+public class DepartmentDAO {
+
+>>>>>>> be980cf (first commit)
     public static boolean registerUser(Department user) throws SQLException {
         String sql = "INSERT INTO departments (username, password_hash, fullname) VALUES (?, ?, ?)";
         try (Connection con = DBUtil.getConnection();

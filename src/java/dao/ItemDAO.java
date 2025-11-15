@@ -21,7 +21,10 @@ public void markAsRecovered(int id) {
     }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> be980cf (first commit)
 
 public List<Item> getAllActiveItems() {
     List<Item> items = new ArrayList<>();

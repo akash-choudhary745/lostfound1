@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> be980cf (first commit)
 
 package servlet;
 

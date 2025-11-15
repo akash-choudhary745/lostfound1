@@ -23,6 +23,7 @@
       border-radius: 50px;
       transition: 0.3s;
     }
+    
   </style>
     </head>
     <body>
@@ -30,11 +31,11 @@
       <div class="container">
 
       <table align="center" cellpadding="20">
-      <th colspan="2" align="center"><h1>Lost & Found Portal</h1></th>
+      <th colspan="2" ><h1>Lost & Found Portal</h1></th>
       <tr><td><h4>Akash Choudhary</h4></td> <td><h5>Role:- Backend Developer(Java, servlet, jdbc)</h5></td></tr>
-      <tr><td><h4>Akash Choudhary</h4></td> <td><h5>Role:- Backend Developer(Java, servlet, jdbc)</h5></td></tr>
-      <tr><td><h4>Akash Choudhary</h4></td> <td><h5>Role:- Backend Developer(Java, servlet, jdbc)</h5></td></tr>
-      <tr><td><h4>Akash Choudhary</h4></td> <td><h5>Role:- Backend Developer(Java, servlet, jdbc)</h5></td></tr>
+      <tr><td><h4>Yashvardhan singh Goyal</h4></td> <td><h5>Role:- Html, css</h5></td></tr>
+      <tr><td><h4>Yash Khandelwal</h4></td> <td><h5>Role:- java script and contribution in html, css</h5></td></tr>
+      <tr><td><h4>Varun Tanwar</h4></td> <td><h5>Role:- Database Management</h5></td></tr>
 
 <tr><td colspan="2">Report lost or found items easily and help others reclaim their belongings.</td></tr>
       </table>

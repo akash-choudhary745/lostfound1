@@ -9,27 +9,20 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   
-  <style>
-       .btn-custom {
-      background-color: #ffc107;
-      color: black;
-      font-weight: 600;
-      border: none;
-      width: 100%;
-      transition: 0.3s;
-    }
-  </style>
 </head>
 <body>
 <div class="container mt-5 mb-5">
   <div class="row justif
-y-content-center">
-    <div class="col-md-6">
-      <div class="card shadow-lg border-0 rounded-4">
-        <div class="card-header text-center bg-primary text-white py-3">
+y-content-center" style="justify-content: center">
+    <div class="col-md-6" >
+      <div class="card shadow-lg border-0 rounded-4" >
+        <div class="card-header text-center bg-primary text-white py-3" >
           <h4 class="mb-0">Department Registration</h4>
         </div>
         <div class="card-body p-4">
+              <% if (request.getAttribute("error") != null) { %>
+            <div class="alert alert-danger text-center"><%= request.getAttribute("error") %></div>
+          <% } %>
           <form action="department_register" method="post">
             
             <div class="mb-3">
@@ -66,7 +59,6 @@ y-content-center">
     <p>&copy; 2025 Lost & Found System | <a href="Team_Member.jsp" style="color: #ffc107">Developed by Team</a></p>
   </footer>
 
-<%--<%@ include file="footer.jsp" %>--%>
 
 </body>
 </html>

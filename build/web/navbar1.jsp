@@ -4,11 +4,7 @@
     Author     : akash
 --%>
 
-<%-- 
-    Document   : navbar2
-    Created on : 30 Oct, 2025, 11:06:17 AM
-    Author     : akash
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

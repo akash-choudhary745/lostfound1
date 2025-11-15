@@ -2,8 +2,6 @@ package servlet;
 
 import dao.DepartmentDAO;
 import model.Department;
-import java.io.*;
-import java.sql.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.IOException;

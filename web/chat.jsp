@@ -58,8 +58,8 @@
     <h4>Department Chat</h4>
     <div>
       <span class="me-3 text-muted">Logged in as: <strong><%= deptName %></strong></span>
-      <a href="DepartmentLogoutServlet" class="btn btn-outline-danger btn-sm">Logout</a>
-      <a href="department_panel.jsp" class="btn btn-outline-secondary btn-sm">? Back</a>
+      <a href="LogoutServlet" class="btn btn-outline-danger btn-sm">Logout</a>
+      <a href="department_home.jsp" class="btn btn-outline-secondary btn-sm">? Back</a>
     </div>
   </div>
 
@@ -104,7 +104,7 @@
     <% } %>
 
     <div class="input-group">
-      <input name="message" class="form-control" placeholder="Type your message..." required>
+      <input name="message" class="form-control" placeholder="Type your message..." >
       <button class="btn btn-primary" type="submit">Send</button>
     </div>
   </form>
